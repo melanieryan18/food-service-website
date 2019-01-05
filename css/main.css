@@ -74,9 +74,10 @@ header nav ul li a{
 	color:#77a466;
 }
 
-.top-section,
-.bottom-section {
-	margin: 0 auto;
+.top,
+.bottom {
+    margin: 0 auto;
+    padding: 10px 10px;
 	clear: both;
 }
 
@@ -84,6 +85,7 @@ header nav ul li a{
 	height: auto;
 	float: left;
 }
+
 .main-image img {
 	border-bottom: 3px solid #77a466;
 }
@@ -103,33 +105,33 @@ header nav ul li a{
 	line-height: 25px;
 }
 
-.section-one,
-.section-two,
-.section-three {
-	width: 399px;
+.sec-one,
+.sec-two,
+.sec-three {
+	width: 33%;
 	height: auto;
 	float: left;
-	border-top: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 
-.section-one h4 {
-	padding: 10px 0;
+.sec-one h4 {
+	padding: 5px 0;
 }
 
-.section-two {
+.sec-two {
 	border-left: 1px solid #eee;
 	border-right: 1px solid #eee;
 }
 
-.section-two h4,
-.section-three h4 {
+.sec-two h4,
+.sec-three h4 {
 	padding: 10px 30px;
 }
 
-.menu {
-	list-style: none;
-	padding: 0;
-}
+
 .menu li {
 	padding: 10px 0;
 	color:#77a466;
@@ -151,10 +153,12 @@ footer {
 	border-top: 3px solid #eee;
 	margin: 0 auto;
 	clear: both;
-	text-align: center;
+    text-align: center;
+    padding-top: 10px;
 }
+
 footer span {
-	font-family: 'Wisdom Script', cursive;
+	font-family: cursive;
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 14px;
